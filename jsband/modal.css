@@ -60,3 +60,44 @@
 .open {
     display: block;
 }
+
+@media only screen and (max-width: 1680px)  {
+    .modal-window {
+        width: 22%;
+    }
+}
+@media only screen and (max-width: 1440px)  {
+    .modal-window {
+        width: 25%;
+    }
+}
+@media only screen and (max-width: 1280px)  {
+    .modal-window {
+        width: 27%;
+    }
+}
+@media only screen and (max-width: 1024px)  {
+    .modal-window {
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 768px)  {
+    .modal-window {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 703px)  {
+    .modal-window {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 576px)  {
+    .modal-window {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 414px)  {
+    .modal-window {
+        width: 60%;
+    }
+}

@@ -164,3 +164,122 @@
 }
 
   /* dropdown */
+
+  @media only screen and (max-width: 1680px)  {
+    
+    #container {
+        max-width: 85%;
+        margin: 30px auto;  
+    }
+  }
+  @media only screen and (max-width: 1440px)  {
+    #container {
+        max-width: 85%;
+        margin: 30px auto;  
+    }
+  }
+  @media only screen and (max-width: 1280px)  {
+    #container {
+        max-width: 85%;
+        margin: 30px auto;  
+    }
+    #search-todo {
+        margin: 0 auto;
+        padding: 0 30px;  
+    }
+    .todo{
+        padding: 10px 20px;
+        max-height: 170px;
+    }
+    .todo h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .todo p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1024px)  {
+    #content {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        padding: 20px 40px;   
+    }   
+    #search-todo {
+        padding: 0 10px;  
+    }
+}
+@media only screen and (max-width: 768px)  {
+    #container {
+        max-width: 90%;
+        margin: 20px auto;  
+    }
+    #content {
+        padding: 10px 40px;   
+    }   
+    #search-todo {
+        margin: 0 auto;
+        padding: 0 10px;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+    #search-todo input {
+        width: 90%; 
+        height: 25px;   
+    }
+    #search-todo select {
+         width: 90%; 
+         height: 100%;
+    }
+    #search-todo button {
+        margin:20px 0;
+        width: 90%; 
+        font-size: 15px;
+        height: 50%;
+    }
+}
+@media only screen and (max-width: 703px)  {
+    #container {
+        max-width: 95%;
+        margin: 10px auto;  
+    }
+    #content {
+        padding: 10px 20px;   
+    } 
+    #search-todo {
+        margin: 0 auto;
+        padding: 0 5px;
+        grid-gap: 5px;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 576px)  {
+    #content {
+        padding: 10px 20px;   
+    } 
+    #search-todo select {
+        width: 90%; 
+        height: 25px;
+   }
+    #search-todo {
+        margin: 0 auto;
+        padding: 0 5px;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+    }
+    #content {
+        grid-template-columns: 1fr;
+        padding: 20px 50px;   
+    } 
+}
+@media only screen and (max-width: 414px)  {
+    #search-todo select {
+        width: 100%; 
+    }
+    #search-todo input {
+        width: 100%; 
+    }
+    #search-todo button {
+        
+        width: 100%; 
+    }
+}

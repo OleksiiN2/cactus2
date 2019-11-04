@@ -1,5 +1,6 @@
 Name: TodoList
 Author: Nedosiek Oleksii
+Date: 03.11.2019
 Purposes: Helps users to shedule their tasks
 
 Functionality:

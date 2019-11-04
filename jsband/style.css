@@ -1,0 +1,166 @@
+#container {
+    max-width: 80%;
+    margin: 30px auto;  
+}
+#header {
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #2980B9;
+}
+#header h1 {
+    margin: 10px 50px;
+    padding: 20px;
+}
+#footer {
+    border: 1px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #2980B9;
+}
+#footer h3 {
+    margin: 10px 50px;
+    padding: 20px;
+}
+.toolbar {
+    padding: 50px;
+    border-right: 1px solid black;
+    border-left: 1px solid black; 
+}
+#search-todo {
+    margin: 0 auto;
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+#search-todo input {
+     width: 90%; 
+    height: 25px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    background: #ddd;
+    border-radius: 5px;
+}
+#search-todo select {
+     width: 80%; 
+     height: 100%;
+    font-size: 16px;
+    border: 1px solid transparent;
+    background: #ddd;
+    border-radius: 5px;
+}
+#search-todo button {
+    border: 1px solid transparent;
+    background: #ddd;
+    border-radius: 5px;
+    opacity: 0.8;
+    transition: 0.3s;
+    font-size: 15px;
+}
+#search-todo button:hover,#search-todo select:hover,#search-todo input:hover {
+    border: 1px solid transparent;
+    background: #2980B9;
+    color: white;
+    font-size: 16px;
+    opacity: 1;
+}
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 40px 40px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    min-height: 500px;
+}   
+.todo{
+    border: 1px solid black;
+    padding: 20px 20px;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+}
+.todo:hover{
+    border: 1px dashed #2980B9;   
+}
+.todo:hover{
+    border: 1px dashed #2980B9;   
+}
+.todo p{
+    float: right;
+    padding: 10px 20px;
+    margin: 10px auto;
+    font-size: 16px;
+    border: 1px dashed black;
+    border-radius: 5px;   
+}
+.todo p[priority="High"] {
+    background: #eb3230;
+}
+.todo p[priority="Normal"] {
+    background: #d8d942;
+}
+.todo p[priority="Low"] {
+    background: #42d98f;
+}
+.done {
+    background: #ddd;
+}
+.done:hover {
+    background: #ddd;
+    border: 1px solid black;   
+}
+
+/* dropdown */
+
+/* Dropdown Button */
+.dropbtn {
+    width:30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;   
+}
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+   /* background-color: #2980B9; */
+   width:32px;
+   height: 32px;
+   margin: 10px 0 12px -2px;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+        
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
+}
+
+  /* dropdown */

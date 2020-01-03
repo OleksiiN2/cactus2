@@ -1,0 +1,149 @@
+body{
+    background-image: url("img/background.jpg");
+    background-size: auto;
+    background-repeat: repeat-y;
+}
+#logo{
+    display: block;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+}
+.pagination{
+   margin-top: 40px;
+}
+#peopleList{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    padding-inline-start: 0px;
+}
+#peopleList li[id]{
+    list-style: none;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding:10px 20px 10px 30px;
+    margin:8px 0;
+    background:rgba(255,255,255, 0.1);
+    font-size: 30px;
+    font-weight: bold;  
+}
+#peopleList li[id]:hover{
+    background:rgba(255,255,255, 0.5);
+    transition: 0.5s;
+    cursor: pointer;  
+}
+.page-item{
+    opacity: 0.9;
+}
+.hideDetails{
+    display: none;
+}
+table{
+    border-collapse: separate; 
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+}
+th,td{
+    border: 1px solid rgba(255,255,255, 0.3);
+    border-radius: 5px;
+    border-collapse: separate;
+    font-size: 22px;
+}
+td li{
+     list-style: url("img/liststyle.png");
+     list-style-position: inside;
+     font-size: 18px;  
+}
+h5{
+    color: lightgray;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* media */
+@media screen and (max-width: 1630px) {
+    body {
+        background-image: url("img/background2.jpg");
+    }
+    #peopleList li[id]{
+         font-size: 24px;  
+    }
+    #peopleList{
+        width: 75%; 
+    }
+    #logo{
+        width: 30%;
+        height: 30%;
+    }
+    th,td{
+        font-size: 20px;
+    }
+    td li{
+        list-style: url("img/liststyle35.png");
+        font-size: 16px;   
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body{
+        background-image: url("img/background3.jpg"); 
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        background-image: url("img/background4.jpg");
+    }
+    #peopleList li[id]{
+        font-size: 16px;    
+    }
+    #peopleList{
+        width: 100%;  
+    }
+    #logo{
+        width: 45%;
+        height: 45%;
+    }
+    table{
+        transform:rotate(270deg);
+        padding:256px 0;
+    }
+    th,td{
+        font-size: 20px;   
+    }
+    td li{
+        list-style: url("img/liststyle25.png");
+        font-size: 12px;   
+    }
+    h5{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    table{
+        padding:90px 0;
+    }
+    h5{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url("img/background5.jpg");
+    }
+    table{
+        padding:50px 0;
+    }
+    h5{
+        font-size: 0.7rem;
+    }
+}
+
+  
